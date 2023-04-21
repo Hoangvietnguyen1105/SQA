@@ -11,7 +11,7 @@ public class newConverter {
 		coursesGroupEntity entity = new coursesGroupEntity();
 		entity.setGroupCode(dto.getGroupCode());
 		entity.setLabCode(dto.getLabCode());
-		
+		entity.setCourseCode(dto.getCourse_code());
 		return entity;
 	}
 	public NewDTO toDTO(coursesGroupEntity cGE) {
